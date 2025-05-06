@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.7/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+
+        <element type="text" scope="locale" required="true">
+            <name>googleAdsConversionId</name>
+            <label lang="de">Google Ads conversion ID (format: AW-XXXXXXXXXX)</label>
+            <label lang="en">Google Ads conversion ID (format: AW-XXXXXXXXXX)</label>
+        </element>
+
+        <element type="text" scope="locale" required="true">
+            <name>googleAdsConversionLabel</name>
+            <label lang="de">Google Ads Conversion Label</label>
+            <label lang="en">Google Ads Conversion Label</label>
+        </element>
+    </elements>
+</config>
